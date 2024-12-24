@@ -1,15 +1,7 @@
-# mapl
+# A stress test
+You need `hyperfine` and `bun` btw.
 
-To install dependencies:
-
+To start just run:
 ```bash
-bun install
+bun index.ts
 ```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.1.31. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
