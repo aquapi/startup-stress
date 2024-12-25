@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "@mapl/app": "^0.2.5",
-    "elysia": "^1.2.2",
-    "hono": "^4.6.14"
+    "@mapl/router": "^0.2.0",
+    "elysia": "^1.2.6",
+    "hono": "^4.6.14",
+    "memoirist": "^0.2.0"
   }
 }

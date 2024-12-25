@@ -9,7 +9,8 @@ const result = await Bun.build({
   entrypoints: Array.from(
     new Bun.Glob('*.ts').scanSync(SRC)
   ).map((path) => SRC + path),
-  outdir: OUT
+  outdir: OUT,
+  minify: true
 });
 
 await Bun.$`hyperfine --warmup=10 ${
